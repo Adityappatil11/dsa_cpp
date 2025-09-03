@@ -30,3 +30,18 @@ cc_library(
     hdrs = ["mergesort.h"],
     linkstatic = 0,
 )
+
+cc_shared_library(
+    name = "selection_sort_so",
+    deps = [":selection_sort"],
+)
+
+cc_shared_library(
+    name = "bubble_sort_so",
+    deps = [":bubble_sort"],
+)
+
+cc_shared_library(
+    name = "merge_sort_so",
+    deps = [":merge_sort"],
+)
