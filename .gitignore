@@ -1,0 +1,5 @@
+bit_manipulation/a.out
+bazel-bin
+bazel-out
+bazel-sde
+bazel-testlogs
